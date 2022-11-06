@@ -1,0 +1,49 @@
+.hero {
+   height: 820px;
+   padding-top: 22px;
+   padding-bottom: 40px;
+   background-image: url('../img/bg-hero-mob.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   @include desk {
+      background-image: url('../img/bg-hero-desk.jpeg');
+      height: 1080px;
+   }
+
+   &__img {
+      width: 780px;
+      height: 760px;
+      
+      position: absolute;
+      opacity: 0.25;
+   }
+
+   &__title {
+      margin-bottom: 25px;
+      @include font (300, 64px, 64px);
+      font-family: 'Cormorant Garamond';
+      color: $white;
+      text-transform: uppercase;
+      text-align: center;
+      z-index: 2;
+
+      @include desk {
+         @include font (300, 140px, 140px);
+      }
+   }
+
+   &__text {
+      @include font (500, 15px, 21px);
+      color: $white;
+      text-align: center;
+   }
+   
+}
+
+// menu navigation
+
+.menu {
+   @include flex (space-between, align-items);
+   margin-bottom: 180px;
+}

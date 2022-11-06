@@ -1,6 +1,6 @@
 @mixin flex($jc, $ai) {
   display: flex;
-  justify-content: $js;
+  justify-content: $jc;
   align-items: $ai;
 }
 
@@ -13,16 +13,16 @@
 
 %button {
   padding: 10px 10px;
-  background-color: $white;
-  border: 1px solid $dark-green;
+  background-color: #fff;
+  border: 1px solid green;
   border-radius: 5px;
   color: inherit;
   font-size: 13px;
   font-weight: 500;
   line-height: 1.5384;
-  transition: border-color $main-transition;
+  transition: border-color cubic-bezier(0.075, 0.82, 0.165, 1);
   &:hover,
   &:focus {
-    border-color: $button-green-dark;
+    border-color: grey;
   }
 }
