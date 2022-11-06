@@ -1,0 +1,28 @@
+@mixin flex($jc, $ai) {
+  display: flex;
+  justify-content: $js;
+  align-items: $ai;
+}
+
+@mixin font($fw, $fs, $lh) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: calc($lh / $fs);
+}
+
+
+%button {
+  padding: 10px 10px;
+  background-color: $white;
+  border: 1px solid $dark-green;
+  border-radius: 5px;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5384;
+  transition: border-color $main-transition;
+  &:hover,
+  &:focus {
+    border-color: $button-green-dark;
+  }
+}
