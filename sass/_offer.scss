@@ -1,0 +1,39 @@
+.offer {
+   background-color: $green-add;
+
+   &__title-first {
+      @include font (400,45px,45px);
+      font-family: 'Cormorant Garamond';
+      color: $grey-bg;
+   }
+
+   &__title-second {
+      @include font (300, 60px, 60px);
+      font-style: italic;
+      font-family: 'Cormorant Garamond';
+      color: $text1;
+      text-align: end;
+      margin-bottom: 20px;
+   }
+
+   &__line {
+      width: 100%;
+      height: 1px;
+      background-color: $grey-bg;
+      opacity: 0.1;
+      margin-bottom: 30px;
+   }
+
+   &__text-primary {
+      @include font (400, 19px, 27px);
+      color: $grey-bg;
+      margin-bottom: 30px;
+   }
+
+   &__img {
+      position: relative;
+      left:25px;
+      margin-bottom: 30px;
+   }
+
+}

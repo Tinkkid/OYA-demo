@@ -22,31 +22,66 @@
   </head>
   <body>
     <header>
-      <section class="section hero">        
-         <img class="hero__img" src="./img/big-logo.png" alt="">
+      <section class="section hero">
+        <img class="hero__img" src="./img/big-logo.png" alt="" />
         <div class="container">
-         <nav class="menu">
+          <nav class="menu">
             <svg width="24" height="17">
-               <use href="./img/icons.svg#open-menu">
-               </use>
+              <use href="./img/icons.svg#open-menu"></use>
             </svg>
             <svg width="80" height="39">
-               <use href="./img/icons.svg#logo">
-               </use>
+              <use href="./img/icons.svg#logo"></use>
             </svg>
             <svg width="30" height="30">
-               <use href="./img/icons.svg#wallet">                  
-               </use>
+              <use href="./img/icons.svg#wallet"></use>
             </svg>
-         </nav>
-           <h1 class="hero__title">Nature teaches us and we abide</h1>
-           <p class="hero__text">
-             A new way of living, focused on solutions that optimize health,
-             longevity & sustainability
-           </p>
+          </nav>
+          <div class="hero__circle--left">
+            member <br />
+            ship
+          </div>
+          <h1 class="hero__title">
+            Nature teaches <span class="hero__title--special">us</span> and we
+            abide
+          </h1>
+          <p class="hero__text">
+            A new way of living, focused on solutions that optimize health,
+            longevity & sustainability
+          </p>
+          <button class="hero__btn" type="submit">
+            <svg width="40" height="40">
+              <use href="./img/icons.svg#arrow-down"></use>
+            </svg>
+          </button>
+          <button class="hero__circle--right">
+            join <br />
+            whitelist
+          </button>
         </div>
       </section>
     </header>
+
+    <!-- Offers -->
+    <section class="section offer">
+      <div class="container">
+        <h2 class="offer__title-first">LONGEVITY</h2>
+        <h2 class="offer__title-second">rediscovered</h2>
+        <div class="offer__line"></div>
+        <p class="offer__text-primary">
+          OYA brings together likeminded people and a multitude of practices and
+          experiences into one place no like other integrative experience you've
+          had before.
+        </p>
+         <div class="offer__line"></div>
+        
+           <img class="offer__img"
+           srcset="./img/offer.png 365w, ./img/offer@2x.png 600w"
+           sizes="420px"
+           src="./img/offer.png" alt="girl in the pool">
+           <div class="offer__line"></div>
+           
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>
