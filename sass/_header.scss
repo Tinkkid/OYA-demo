@@ -1,0 +1,9 @@
+.menu {
+   @include flex (space-between, align-items);
+   position: fixed;
+   background-color: $green-add;
+   width: 100vw;
+   z-index: 100;
+   opacity: 0.8;
+   padding: 10px 10px;
+}

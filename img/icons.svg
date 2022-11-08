@@ -10,11 +10,12 @@
 </defs>
 </symbol>
 
-<symbol id="open-menu" width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24 0H0V3H24V0Z" fill="white"/>
-<path d="M20 14H0V17H20V14Z" fill="white"/>
-<path d="M9 7H0V10H9V7Z" fill="white"/>
+<symbol id="open-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 12H21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 6H21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 18H21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
+
 
 <symbol id="close-menu" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16 2L2 16" stroke="white" stroke-width="3" stroke-linecap="round"/>
@@ -36,6 +37,22 @@
 <path d="M886.404 1351.77C1164.91 1351.77 1390.69 1123.52 1390.69 841.956C1390.69 560.393 1164.91 332.141 886.404 332.141C607.894 332.141 382.117 560.393 382.117 841.956C382.117 1123.52 607.894 1351.77 886.404 1351.77Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
 <path d="M505.286 1351.77C783.796 1351.77 1009.57 1123.52 1009.57 841.956C1009.57 560.393 783.796 332.141 505.286 332.141C226.777 332.141 1 560.393 1 841.956C1 1123.52 226.777 1351.77 505.286 1351.77Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
 </symbol>
+
+<symbol id="earth" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="30" height="30" rx="15" fill="#EBEBEB"/>
+<rect width="30" height="30" rx="15" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_801_1528" transform="translate(0.0726103 0.0588235) scale(0.00172335)"/>
+</pattern>
+</defs>
+</symbol>
+
+<symbol id="list-line" width="24" height="1" viewBox="0 0 24 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="1" fill="#EBEBEB"/>
+</symbol>
+
+
 
 
 

@@ -91,16 +91,22 @@ body {
   }
 }
 
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  scroll-margin-top: 72px;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: align-items;
+  position: fixed;
+  background-color: #37473a;
+  width: 100vw;
+  z-index: 100;
+  opacity: 0.8;
+  padding: 10px 10px;
 }
 
 .hero {
   height: 820px;
-  padding-top: 22px;
   padding-bottom: 40px;
+  padding-top: 40px;
   background-image: url("../img/bg-hero-mob.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,15 +194,9 @@ body {
   line-height: 1.2857142857;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: align-items;
-  margin-bottom: 30px;
-}
-
 .offer {
   background-color: #37473a;
+  padding-top: 40px;
 }
 .offer__title-first {
   font-weight: 400;
@@ -233,4 +233,45 @@ body {
   position: relative;
   left: 25px;
   margin-bottom: 30px;
+}
+.offer__title-first--add {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  font-family: "Cormorant Garamond";
+  color: #ffffff;
+}
+.offer__title-second--add {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  font-family: "Cormorant Garamond";
+  color: #d7ae9c;
+  margin-bottom: 30px;
+}
+.offer__list {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.4117647059;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.offer__list--line {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: #ffffff;
+}
+.offer__item {
+  display: inline-block;
+  max-width: 294px;
+}
+.offer__img-last {
+  position: relative;
+  right: 25px;
+  margin-top: 47px;
 }/*# sourceMappingURL=main.css.map */

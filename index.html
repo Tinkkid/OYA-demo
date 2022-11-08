@@ -22,47 +22,50 @@
   </head>
   <body>
     <header>
-      <section class="section hero">
-        <img class="hero__img" src="./img/big-logo.png" alt="" />
-        <div class="container">
-          <nav class="menu">
-            <svg width="24" height="17">
-              <use href="./img/icons.svg#open-menu"></use>
-            </svg>
-            <svg width="80" height="39">
-              <use href="./img/icons.svg#logo"></use>
-            </svg>
-            <svg width="30" height="30">
-              <use href="./img/icons.svg#wallet"></use>
-            </svg>
-          </nav>
-          <div class="hero__circle--left">
-            member <br />
-            ship
-          </div>
-          <h1 class="hero__title">
-            Nature teaches <span class="hero__title--special">us</span> and we
-            abide
-          </h1>
-          <p class="hero__text">
-            A new way of living, focused on solutions that optimize health,
-            longevity & sustainability
-          </p>
-          <button class="hero__btn" type="submit">
-            <svg width="40" height="40">
-              <use href="./img/icons.svg#arrow-down"></use>
-            </svg>
-          </button>
-          <button class="hero__circle--right">
-            join <br />
-            whitelist
-          </button>
-        </div>
-      </section>
+      <!-- Navigation menu -->
+      <nav class="menu">
+        <svg width="24" height="20">
+          <use href="./img/icons.svg#open-menu"></use>
+        </svg>
+        <svg width="80" height="39">
+          <use href="./img/icons.svg#logo"></use>
+        </svg>
+        <svg width="30" height="30">
+          <use href="./img/icons.svg#wallet"></use>
+        </svg>
+      </nav>
     </header>
 
+    <!-- Main section Hero -->
+    <section class="hero">
+      <img class="hero__img" src="./img/big-logo.png" alt="" />
+      <div class="container hero__block">
+        <div class="hero__circle--left">
+          member <br />
+          ship
+        </div>
+        <h1 class="hero__title">
+          Nature teaches <span class="hero__title--special">us</span> and we
+          abide
+        </h1>
+        <p class="hero__text">
+          A new way of living, focused on solutions that optimize health,
+          longevity & sustainability
+        </p>
+        <button class="hero__btn" type="submit">
+          <svg width="40" height="40">
+            <use href="./img/icons.svg#arrow-down"></use>
+          </svg>
+        </button>
+        <button class="hero__circle--right">
+          join <br />
+          whitelist
+        </button>
+      </div>
+    </section>
+
     <!-- Offers -->
-    <section class="section offer">
+    <section class="offer">
       <div class="container">
         <h2 class="offer__title-first">LONGEVITY</h2>
         <h2 class="offer__title-second">rediscovered</h2>
@@ -72,16 +75,61 @@
           experiences into one place no like other integrative experience you've
           had before.
         </p>
-         <div class="offer__line"></div>
-        
-           <img class="offer__img"
-           srcset="./img/offer.png 365w, ./img/offer@2x.png 600w"
-           sizes="420px"
-           src="./img/offer.png" alt="girl in the pool">
-           <div class="offer__line"></div>
-           
+        <div class="offer__line"></div>
+        <img
+          class="offer__img"
+          srcset="./img/offer.png 365w, ./img/offer@2x.png 600w"
+          sizes="420px"
+          src="./img/offer.png"
+          alt="girl in the pool"
+        />
+        <div class="offer__line"></div>
+        <h2 class="offer__title-first--add">OYA</h2>
+        <h2 class="offer__title-second--add">offers you</h2>
+
+        <!-- Offer list -->
+        <div class="offer__list">
+          <svg class="offer__list--line" width="24">
+            <use href="./img/icons.svg#list-line"></use>
+          </svg>
+          <p class="offer__item">
+            Fresh and healthy farm to table food from her garden.
+          </p>
+        </div>
+        <div class="offer__list">
+          <svg class="offer__list--line">
+            <use href="./img/icons.svg#list-line"></use>
+          </svg>
+          <p class="offer__item">
+            Luxury accommodation that connects you to nature.
+          </p>
+        </div>
+        <div class="offer__list">
+          <svg class="offer__list--line">
+            <use href="./img/icons.svg#list-line"></use>
+          </svg>
+          <p class="offer__item">
+            Personalized plans to track and restore your health.
+          </p>
+        </div>
+        <div class="offer__list">
+          <svg class="offer__list--line">
+            <use href="./img/icons.svg#list-line"></use>
+          </svg>
+          <p class="offer__item">
+            A community and the resources you need to transform your life
+          </p>
+        </div>
+        <img class="offer__img-last"
+        srcset="./img/rectangle/rectangle_9.png 365w, ./img/rectangle/rectangle_9@2x.png 730w"
+        src="./img/rectangle/rectangle_9.png"
+        sizes="365px"
+        alt="trees and pool">
+
       </div>
     </section>
+
+    
     <footer></footer>
   </body>
 </html>
